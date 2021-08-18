@@ -10,7 +10,7 @@ This is a project is a simple COS used for image host.
 The usage is shown below
 
 
-https://flysky-1302120781.file.myqcloud.com/7cdacb47f0487ec96f2cc4140a81024f.gif
+<img src="https://flysky-1302120781.file.myqcloud.com/7cdacb47f0487ec96f2cc4140a81024f.gif">
 
 
 ## Prerequisites
