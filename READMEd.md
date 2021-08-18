@@ -10,7 +10,7 @@ This is a project is a simple COS used for image host.
 The usage is shown below
 
 
-![Alt Text]("https://jarviszuo-tencent-img-1302316844.cos.ap-chengdu.myqcloud.com/img/markdownImg/7cdacb47f0487ec96f2cc4140a81024f.gif")
+![Alt.gif]("https://flysky-1302120781.file.myqcloud.com/7cdacb47f0487ec96f2cc4140a81024f.gif")
 
 
 ## Prerequisites
