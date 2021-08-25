@@ -20,6 +20,13 @@ pip install -U cos-python-sdk-v5
 ```bash
 ."D:\\Drive\COSupload.exe" -b "xxx-1231231231" -i "ABCDEFGHIJKLMNOPQ" -k "ABCDEFGHIJKLMNOPQRST" -cp "img/" -r "ap-chengdu" -lp
 ```
+参数解释：
+* `-b` （必填）表示存储桶名称；
+* `-i` （必填）表示SECRET_ID，为腾讯云的API密钥ID；
+* `-k` （必填）表示SECRET_KEY，为腾讯云API密钥KEY；
+* `-r` （必填）表示存储桶地区；
+* `-cp` 指定所上传的图片位于存储桶内的目录（如果为根目录则无需填写）；
+* `-lp` （放置最后）指定本地图片的路径。
 
 
 ## 3. 各参数说明
