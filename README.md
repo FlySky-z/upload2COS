@@ -1,5 +1,31 @@
 # upload2COS
+
 用于将文件上传至腾讯云（qcloud）的对象存储（COS），使用Python语言完成。
+
+# 简介
+
+> 项目基于腾讯云提供的PythonSDK接口编写。
+
+# 使用
+
+## 1. 安装PythonSDK
+```bash
+pip install -U cos-python-sdk-v5
+```
+
+## 2. 配置文件
+
+### Example（For Release）
+
+```bash
+."D:\\Drive\COSupload.exe" -b "xxx-1231231231" -i "ABCDEFGHIJKLMNOPQ" -k "ABCDEFGHIJKLMNOPQRST" -cp "img/" -r "ap-chengdu" -lp
+```
+
+
+## 3. 各参数说明
+
+* 对于`Release`文件，则可以在命令行通过`-h`参数查询各参数；
+* 对于源码可以通过`python main.py -h`查询各参数。
 
 ```
 usage: main.py [-h] -bucket_name BUCKET_NAME -secret_id SECRET_ID -secret_key SECRET_KEY -region REGION -local_path LOCAL_PATH [LOCAL_PATH ...] [-cos_path COS_PATH]
@@ -32,8 +58,4 @@ optional arguments:
   -log LOG, -l LOG      Optional, Whether to display the log, default is 'False'.
 ```
 
-## Example
 
-```bash
-."D:\\Drive\COSupload.exe" -b "xxx-1231231231" -i "ABCDEFGHIJKLMNOPQ" -k "ABCDEFGHIJKLMNOPQRST" -cp "img/" -r "ap-chengdu" -lp
-```
