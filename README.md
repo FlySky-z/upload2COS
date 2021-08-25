@@ -8,14 +8,19 @@
 
 # 使用
 
-## 1. 安装PythonSDK
+## Release
+下载地址：https://github.com/FlySky-z/upload2COS/releases/tag/V1.0
+
+
+## 源码安装
+### 1. 安装PythonSDK
 ```bash
 pip install -U cos-python-sdk-v5
 ```
 
-## 2. 配置文件
+### 2. 配置文件
 
-### Example（For Release）
+#### Example（For Release）
 
 ```bash
 ."D:\\Drive\COSupload.exe" -b "xxx-1231231231" -i "ABCDEFGHIJKLMNOPQ" -k "ABCDEFGHIJKLMNOPQRST" -cp "img/" -r "ap-chengdu" -lp
@@ -29,7 +34,7 @@ pip install -U cos-python-sdk-v5
 * `-lp` （放置最后）指定本地图片的路径。
 
 
-## 3. 各参数说明
+### 3. 各参数说明
 
 * 对于`Release`文件，则可以在命令行通过`-h`参数查询各参数；
 * 对于源码可以通过`python main.py -h`查询各参数。
